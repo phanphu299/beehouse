@@ -1,0 +1,57 @@
+// main: ../main.scss
+/*--------------------------------------------------------------
+# Trainers Index Section
+--------------------------------------------------------------*/
+.trainers-index {
+  .member {
+    border: 1px solid rgba(var(--default-color-rgb), .1);
+    text-align: center;
+    margin-bottom: 20px;
+
+    img {
+      margin: -1px -1px 30px -1px;
+    }
+
+    .member-content {
+      padding: 0 20px 30px 20px;
+    }
+
+    h4 {
+      font-weight: 700;
+      margin-bottom: 2px;
+      font-size: 18px;
+    }
+
+    span {
+      font-style: italic;
+      display: block;
+      font-size: 13px;
+      color: rgba(var(--default-color-rgb), .8);
+    }
+
+    p {
+      padding-top: 10px;
+      font-size: 14px;
+      font-style: italic;
+      color: rgba(var(--default-color-rgb), .6);
+    }
+
+    .social {
+      margin-top: 15px;
+
+      a {
+        color: rgba(var(--default-color-rgb), .4);
+        transition: 0.3s;
+
+        &:hover {
+          color: var(--accent-color);
+        }
+      }
+
+      i {
+        font-size: 18px;
+        margin: 0 2px;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+// main: ../main.scss
+/*--------------------------------------------------------------
+# Counts Section
+--------------------------------------------------------------*/
+.counts {
+  --background-color: rgba(var(--default-color-rgb), .04);
+  padding: 25px 0;
+
+  .stats-item {
+    padding: 30px;
+    width: 100%;
+
+    span {
+      font-size: 48px;
+      display: block;
+      color: var(--accent-color);
+      font-weight: 700;
+    }
+
+    p {
+      color: rgba(var(--default-color-rgb), .6);
+      padding: 0;
+      margin: 0;
+      font-family: var(--heading-font);
+      font-size: 15px;
+      font-weight: 600;
+    }
+  }
+}
